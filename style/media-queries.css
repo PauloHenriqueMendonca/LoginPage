@@ -17,6 +17,7 @@ Tv or other:  above 1200px
     
     section#login {
         width: 90vw;
+        height: 280px;
     }
 
     section#login div#image{
@@ -27,7 +28,36 @@ Tv or other:  above 1200px
     section#login div#form{
         float: right;
         width: 70%;
+        margin: 30px 0px;
     }
+
+    form input[type=submit]{
+        display: block;
+        font-size: 1rem;
+        width: 25%;
+        height: 30px;
+        border: none;
+        border-radius: 5px; 
+        margin-left:210px;
+        margin-top: 10px;
+    }
+
+    div.campo span{
+        color: rgb(100, 98, 98);
+        width: 30px;
+        padding: 5px;
+    }
+    div.campo input{
+        width: 60%;
+        background-color: rgba(241, 233, 233, 0.719);
+        height: 100%;
+        width: 92%;
+        transform: translateY(-6px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 5px;
+    }
+
 }
 @media screen and (min-width: 992px){
     body{
@@ -37,6 +67,7 @@ Tv or other:  above 1200px
     
     section#login{
         width: 950px;
+        height: 300px;
     }
     section#login div#image{
         float: left;
@@ -46,11 +77,39 @@ Tv or other:  above 1200px
     section#login div#form{
         float: right;
         width: 50%;
+        margin: 20px 0px;
     }
     div#form h1{
         font-size: 2rem;
     }
     div#form p{
         font-size: 1.2rem;
+    }
+
+    form input[type=submit]{
+        display: block;
+        font-size: 1rem;
+        width: 30%;
+        height: 30px;
+        border: none;
+        border-radius: 5px; 
+        margin-left:150px;
+        margin-top: 10px;
+    }   
+
+    div.campo span{
+        color: rgb(100, 98, 98);
+        width: 30px;
+        padding: 5px;
+    }
+    div.campo input{
+        width: 60%;
+        background-color: rgba(241, 233, 233, 0.719);
+        height: 100%;
+        width: 92%;
+        transform: translateY(-6px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 5px;
     }
 }
