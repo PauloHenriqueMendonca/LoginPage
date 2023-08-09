@@ -7,6 +7,9 @@
     <title>Login</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media-queries.css">
+    <!--para adicionar os icones no lado do login e senha digite no google google icons va em materials.io depois desenvolverdor guide e pegue o link -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <main>
@@ -18,7 +21,19 @@
                 <h1>Sign In</h1>
                 <p>Seja bem-vindo(a)!</p>
                 <form action="" method="post">
-
+                    <div class="campo">
+                        <span class="material-icons">person</span>
+                        <input type="email" placeholder="digite seu e-mail" name="login" id="ilogin">
+                        <label for="ilogin">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" placeholder="digite sua senha" name="senha" id="isenha">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Sign In">
+                    <a href="forgotPassword.html" class="button">Forgot Password <i class="material-icons">mail</i>
+                    </a>
                 </form>
             </div>
 
